@@ -1,0 +1,26 @@
+
+
+.read-the-docs {
+  color: #888;
+}
+/* CUSTOM fOUNTS */
+@font-face {
+  font-family: IBM;
+  src: url("/public/fonts/IBM/IBMPlexSans-Medium.ttf");
+  weight: 600;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/fonts/IBM/IBMPlexSans-Regular.ttf");
+  weight: 500;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/fonts/IBM/IBMPlexSans-Light.ttf");
+  weight: 400;
+}
+@font-face {
+  font-family: IBM;
+  src: url("/public/fonts/IBM/IBMPlexSans-Thin.ttf");
+  weight: 100;
+}
