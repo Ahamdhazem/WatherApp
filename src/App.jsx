@@ -1,17 +1,16 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
+
 import { Box, Card, Typography } from "@mui/material";
 import Divider from "@mui/material/Divider";
-import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
+
 import CloudIcon from "@mui/icons-material/Cloud";
 import Button from "@mui/material/Button";
 import axios from "axios";
 import moment from "moment";
 import "moment/dist/locale/ar";
 import { useTranslation } from "react-i18next";
-import { I18nextProvider } from "react-i18next";
+
 moment.locale("ar");
 
 export default function App() {
@@ -73,9 +72,8 @@ export default function App() {
     setLang((prevLang) => (prevLang === "ar" ? "en" : "ar"));
   };
   return (
-    <div dir={lang==="ar"?"rtl":"ltr"}>
+    <div dir={lang === "ar" ? "rtl" : "ltr"}>
       <Card
-     
         sx={{
           backgroundColor: "rgb(28 53 91 /36%)",
           // direction: "rtl",
